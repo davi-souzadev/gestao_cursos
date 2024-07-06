@@ -34,7 +34,7 @@ public class CandidateEntity {
     private String email;
 
     @NotNull
-    @Length(min = 8, max = 16)
+    @Length(min = 8, max = 100)
     private String password;
     
     private String description;
