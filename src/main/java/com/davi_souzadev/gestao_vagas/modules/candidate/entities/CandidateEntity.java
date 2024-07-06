@@ -1,4 +1,4 @@
-package com.davi_souzadev.gestao_vagas.modules.candidate;
+package com.davi_souzadev.gestao_vagas.modules.candidate.entities;
 
 
 import lombok.Data;

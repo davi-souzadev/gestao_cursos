@@ -4,8 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.davi_souzadev.gestao_vagas.exceptions.UserFoundException;
-import com.davi_souzadev.gestao_vagas.modules.candidate.CandidateEntity;
-import com.davi_souzadev.gestao_vagas.modules.candidate.CandidateRepository;
+import com.davi_souzadev.gestao_vagas.modules.candidate.entities.CandidateEntity;
+import com.davi_souzadev.gestao_vagas.modules.candidate.repositories.CandidateRepository;
 
 @Service
 public class CreateCandidateUseCase {

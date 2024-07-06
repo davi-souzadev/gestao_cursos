@@ -2,15 +2,15 @@ package com.davi_souzadev.gestao_vagas.modules.candidate.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
+// import org.springframework.web.bind.annotation.DeleteMapping;
+// import org.springframework.web.bind.annotation.GetMapping;
+// import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.davi_souzadev.gestao_vagas.modules.candidate.CandidateEntity;
+import com.davi_souzadev.gestao_vagas.modules.candidate.entities.CandidateEntity;
 import com.davi_souzadev.gestao_vagas.modules.candidate.useCases.CreateCandidateUseCase;
 
 import jakarta.validation.Valid;
