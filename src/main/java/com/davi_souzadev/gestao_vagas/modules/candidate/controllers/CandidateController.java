@@ -28,7 +28,7 @@ public class CandidateController {
     //     return ResponseEntity.status(HttpStatus.OK).body(candidates);
     // }
 
-    @PostMapping("/")
+    @PostMapping
     public ResponseEntity<Object> create(@Valid @RequestBody CandidateEntity candidateEntity) {
         try {
             var result = this.createCandidateUseCase.execute(candidateEntity);

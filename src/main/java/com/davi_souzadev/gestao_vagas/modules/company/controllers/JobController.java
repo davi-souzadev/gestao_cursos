@@ -25,7 +25,7 @@ public class JobController {
   @Autowired
   private CreateJobUseCase createJobUseCase;
 
-  @PostMapping("/")
+  @PostMapping
   public ResponseEntity<Object> create(@Valid @RequestBody CreateJobDTO createJobDTO, HttpServletRequest request) {
     try {
       var companyId = request.getAttribute("company_id");
